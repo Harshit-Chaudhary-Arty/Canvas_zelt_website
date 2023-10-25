@@ -117,7 +117,58 @@ canvas{
 }
 
 #page1{
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color: #E5E1DC;
+    
+}
+
+#page1 h1{
+    z-index: 2;
+    position:relative;
+    transform: translate(-50%,-50%);
+    top: 5vh;
+    left: 50vw;
+    font-family: 'Manrope', sans-serif;
+    line-height: 115%;
+    font-size: 70px;
+    text-align: center;
+}
+
+#page1 h4{
+    z-index: 2;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 2vh;
+    left: 50vw;
+    font-family: 'Manrope', sans-serif;
+    line-height: 135%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+}
+
+#award{
+    height: 30vh;
+    width: 50vh;
+    transform: translate(-50%,-50%);
+    position: relative;
+    left: 50%;
+    top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#award img{
+    height: 50%;
+}
+
+#page2{
+    background-color: black;
     height: 100vh;
     width: 100vw;
-    background-color: blue;
 }
