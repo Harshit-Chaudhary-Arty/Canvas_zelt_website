@@ -247,3 +247,64 @@ canvas{
     font-family: 'Manrope', sans-serif;
     margin-top: 5%;
 }
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    
+    position: relative;
+}
+
+#ph13{
+    font-family: 'Manrope', sans-serif;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 30%;
+    font-size: 95px;
+}
+
+#centerdiv2{
+    height: 50%;
+    width: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#leftcd2{
+    width: 50%;
+    height: 100%;
+   
+}
+
+#rightcd2{
+    width: 50%;
+    height: 100%;
+    
+}
+
+#leftcd2 h1{
+    font-family: 'Manrope', sans-serif;
+    margin-top: 10%;
+    font-size: 65px;
+    margin-left: 20%;
+}
+
+#leftcd2 h3{
+    font-family: 'Manrope', sans-serif;
+    padding-right: 20%;
+    margin-left: 1%;
+    margin-top: 3%;
+    font-size: 20px;
+    padding-right: 30%;
+    margin-left: 20%;
+}
+
+#rightcd2 video{
+    height: 100%;
+    width: 100%;
+}
