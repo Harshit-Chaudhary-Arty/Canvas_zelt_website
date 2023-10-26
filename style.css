@@ -371,3 +371,54 @@ canvas{
     height: 100%;
     width: 100%;
 }
+
+
+#page5{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+
+#centerdiv4{
+    height: 50%;
+    width: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+  
+   z-index: 5;
+}
+
+#leftcd4{
+    width: 50%;
+    height: 100%;
+    
+}
+
+#rightcd4{
+    width: 50%;
+    height: 100%;
+  
+}
+
+#leftcd4 h3{
+    font-family: 'Manrope', sans-serif;
+    padding-right: 20%;
+    margin-left: 1%;
+    margin-top: 3%;
+    font-size: 20px;
+    padding-right: 30%;
+    margin-left: 20%;
+}
+
+#leftcd4 h1{
+    font-family: 'Manrope', sans-serif;
+    margin-top: 10%;
+    font-size: 65px;
+    margin-left: 20%;
+}
