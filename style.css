@@ -559,6 +559,8 @@ canvas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr; 
+    font-family: 'Manrope', sans-serif;
+    
 } 
 
 .card>img{
@@ -566,6 +568,7 @@ canvas{
     grid-column-end: 2;
     grid-row-start: 0;
     grid-row-end: 1;
+    border-radius: 10px;
    
 }
 
@@ -575,6 +578,7 @@ canvas{
     grid-row-start: 0;
     grid-row-end: 1;
     font-size: 200%;
+    
 }
 
 .card>h3{
@@ -582,6 +586,18 @@ canvas{
     grid-column-end: 4;
     grid-row-start: 0;
     grid-row-end: 1;
-    padding-top: 50%;
+    margin-top: 70%;
+    font-size: medium;
+    font-weight: 500;
+    color: #2F2F2F;
     
+}
+
+.card>p{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 8;
+   text-align: justify;
+   font-size: larger;
 }
