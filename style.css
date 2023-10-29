@@ -6,6 +6,8 @@
 html , body{
     height: 100%;
     width: 100%;
+    font-family: 'Manrope', sans-serif;
+
 }
 
 #main{
@@ -614,9 +616,8 @@ canvas{
 }
 
 .page8{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
-    font-family: 'Manrope', sans-serif;
     position: relative;
 }
 
@@ -649,7 +650,7 @@ canvas{
     position: relative;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 40%;
+    top: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -674,4 +675,39 @@ canvas{
 .fcard>h3{
     color: #535353;
     font-size: 20px;
+}
+
+.footer{
+    background-color: #2F2F2F;
+    color: #E5E1DC;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+}
+
+.content{
+    height: 50%;
+    width: 60%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.content>h1{
+    font-size: 6em;
+    margin-bottom: 4%;
+    line-height: 100%;
+}
+
+.content>button{
+    height: 13%;
+    width: 20%;
+    font-size: x-large;
+    border-radius: 12px;
+    border: none;
+    background-color: #ffcb69;
+    margin-bottom: 7%;
 }
