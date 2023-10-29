@@ -690,7 +690,7 @@ canvas{
     width: 60%;
     position: relative;
     transform: translate(-50%,-50%);
-    top: 50%;
+    top: 40%;
     left: 50%;
 }
 
@@ -700,6 +700,7 @@ canvas{
     font-size: 6em;
     margin-bottom: 4%;
     line-height: 100%;
+    font-weight: 200;
 }
 
 .content>button{
@@ -710,4 +711,56 @@ canvas{
     border: none;
     background-color: #ffcb69;
     margin-bottom: 7%;
+}
+
+.content2{
+    height: 50%;
+    width: 60%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 42%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+   
+.content2>div{
+    width: 30%;
+}
+
+#flogo>img{
+    height: 30%;
+    width: 50%;
+}
+
+#qr>img{
+    height: 30%;
+    width: 30%;
+    margin-left: 65%;
+}
+
+#links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#links1>h4{
+    margin-bottom: 10%;
+}
+
+#links2>h4{
+    margin-bottom: 10%;
+}
+
+#links3>h4{
+    margin-bottom: 10%;
+}
+
+
+a{
+    color: #E5E1DC;
+    text-decoration: none;
 }
