@@ -230,3 +230,33 @@ ScrollTrigger.create({
   start: `top top`,
   end: `300% top`,
 });
+
+
+
+function videoconAnimation(){
+var videocon = document.querySelector(".page7")
+var playbtn= document.querySelector("#drag")
+videocon.addEventListener("mouseenter",function(){
+  gsap.to(playbtn,{
+      scale:1,
+      opacity:1
+  })
+
+})
+videocon.addEventListener("mouseleave",function(){
+  gsap.to(playbtn,{
+      scale:0,
+      opacity:0
+      
+  })
+})
+
+
+videocon.addEventListener("mousemove",function(dets){
+  gsap.to(playbtn,{
+      left:dets.x,
+      top:dets.y,
+  })
+})
+}
+videoconAnimation()
