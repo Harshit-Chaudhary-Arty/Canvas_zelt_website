@@ -234,7 +234,7 @@ ScrollTrigger.create({
 
 
 function videoconAnimation(){
-var videocon = document.querySelector(".page7")
+var videocon = document.querySelector(".page8")
 var playbtn= document.querySelector("#drag")
 videocon.addEventListener("mouseenter",function(){
   gsap.to(playbtn,{
@@ -250,8 +250,6 @@ videocon.addEventListener("mouseleave",function(){
       
   })
 })
-
-
 videocon.addEventListener("mousemove",function(dets){
   gsap.to(playbtn,{
       left:dets.x,

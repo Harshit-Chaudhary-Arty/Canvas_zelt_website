@@ -478,8 +478,20 @@ canvas{
     height: 20%;
     align-items: center;
     justify-content: space-evenly;
+    color: #2F2F2F;
+    display: flex;
+   padding-right: 3%;
+   
 }
 
+.iconDes>h3{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.icon{
+    padding-left: 4%;
+}
 
 /* page6 starts here */
 
@@ -552,6 +564,8 @@ canvas{
     align-items: center;
     justify-content: space-evenly;
     column-gap: 7%;
+    z-index: 10;
+    
 }
 
 .card{
@@ -562,7 +576,7 @@ canvas{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr; 
     font-family: 'Manrope', sans-serif;
-    
+    z-index: inherit;
 } 
 
 .card>img{
@@ -662,8 +676,8 @@ canvas{
     border-radius: 50%;
     background-color: black;
     color: #E5E1DC;
-    position: fixed;
-    z-index: 11;
+    position: absolute;
+    z-index: 16;
     transform: translate(-50%,-50%);
     font-size: 30px;
     text-align: center;
